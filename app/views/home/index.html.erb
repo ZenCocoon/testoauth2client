@@ -1,0 +1,11 @@
+<% if current_user %>
+  Currently logged-in with <%= current_user.email %>
+  <%= link_to "Sign Out", signout_path %>
+  <pre>
+    <%= current_user.to_yaml %>
+  </pre>
+<% else %>
+  <ul>
+    <li><%= link_to "Sign in with TestOAuth2Strategy", "/auth/testoauth2strategy" %></li>
+  </ul>
+<% end %>
