@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/ZenCocoon/omniauth-testoauth2strategy.git
+  revision: f31a5af59630e4333097c3a5edd1c050695c8c22
+  specs:
+    omniauth-testoauth2strategy (0.0.1)
+      hashie (~> 1.2)
+      omniauth (~> 1.0.0.pr2)
+      omniauth-oauth2 (~> 1.0.0.pr2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -29,6 +38,7 @@ GEM
       activesupport (= 3.1.1)
     activesupport (3.1.1)
       multi_json (~> 1.0)
+    addressable (2.2.6)
     arel (2.2.1)
     builder (3.0.0)
     coffee-rails (3.1.1)
@@ -41,6 +51,11 @@ GEM
     erubis (2.7.0)
     execjs (1.2.9)
       multi_json (~> 1.0)
+    faraday (0.7.5)
+      addressable (~> 2.2.6)
+      multipart-post (~> 1.1.3)
+      rack (>= 1.1.0, < 2)
+    hashie (1.2.0)
     hike (1.2.1)
     i18n (0.6.0)
     jquery-rails (1.0.16)
@@ -53,6 +68,16 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     multi_json (1.0.3)
+    multipart-post (1.1.3)
+    oauth2 (0.5.1)
+      faraday (~> 0.7.4)
+      multi_json (~> 1.0.3)
+    omniauth (1.0.0.pr2)
+      hashie
+      rack
+    omniauth-oauth2 (1.0.0.pr2)
+      oauth2 (~> 0.5.0)
+      omniauth (~> 1.0.0.pr2)
     pg (0.11.0)
     polyglot (0.3.2)
     rack (1.3.4)
@@ -109,6 +134,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
   jquery-rails
+  omniauth-testoauth2strategy!
   pg
   rails (= 3.1.1)
   sass-rails (~> 3.1.4)
