@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ZenCocoon/omniauth-testoauth2strategy.git
-  revision: f31a5af59630e4333097c3a5edd1c050695c8c22
+  revision: 141e17493655182837cd1fde38322baaa53d8e5d
   specs:
     omniauth-testoauth2strategy (0.0.1)
       hashie (~> 1.2)
