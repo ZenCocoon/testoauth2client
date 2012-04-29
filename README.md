@@ -1,6 +1,6 @@
 # OAuth 2 Client Test Application
 
-A sample OAuth 2 Client application using Rails 3.1 and OmniAuth 1.0
+A sample OAuth 2 Client application using Rails 3.2 and OmniAuth 1.0
 
 Heavily based on http://railscasts.com/episodes/241-simple-omniauth
 

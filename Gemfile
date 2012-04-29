@@ -17,5 +17,4 @@ end
 
 gem 'jquery-rails'
 
-gem 'omniauth-testoauth2strategy', :git => 'git://github.com/ZenCocoon/omniauth-testoauth2strategy.git'
-
+gem 'omniauth-testoauth2strategy', :github => 'ZenCocoon/omniauth-testoauth2strategy'
